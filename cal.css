@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.body{
+    margin-top: 3px;
+    margin: auto;
+    width:460px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+#show{
+    background-color: rgb(148, 222, 245);
+    width: 420px;
+    margin: 15px;
+    height: 100px;
+    text-align: right;
+    font-size: 100px;
+    color:black ;
+    
+}
+.b{
+    width: 81.5px;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(240, 228, 213);
+    border-radius: 8px;
+    border-color: rgb(184, 183, 178);
+    font-size: 30px;
+
+}
+.b:hover{
+    background-color: rgb(236, 159, 131);
+    border-color: aquamarine;
+
+}
+.b:active{
+    background-color: aliceblue;
+
+}
+.clear{
+    background-color: red;
+    color: aliceblue;
+}
+.op{
+    background-color: rgb(160, 98, 18);
+}

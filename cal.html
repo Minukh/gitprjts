@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+    
+</head>
+<body>
+    <div class="header">Calculator</div>
+    <div class="body">
+        <input type="text" name="display" id="show">
+        <br>
+        <input class="b num" type="button" value="7" onclick='btnclick(value)' >
+        <input class="b num" type="button" value="8" onclick='btnclick(value)'>
+        <input class="b num" type="button" value="9" onclick='btnclick(value)'>
+        <input class="b op" type="button" value="+"onclick='btnclick(value)' >
+        <br>
+        <input class="b num" type="button" value="4"onclick='btnclick(value)'>
+        <input class="b num" type="button" value="5" onclick='btnclick(value)'>
+        <input class="b num" type="button" value="6" onclick='btnclick(value)'>
+        <input class="b op" type="button" value="-" onclick='btnclick(value)'>
+       <br>
+       <input class="b num" type="button" value="1" onclick='btnclick(value)'>
+        <input class="b num" type="button" value="2" onclick='btnclick(value)'>
+        <input class="b num" type="button" value="3" onclick='btnclick(value)'>
+        <input class="b op" type="button" value="*" onclick='btnclick(value)'>
+        <br>
+        <input class="b clear" type="button" value="c" onclick="clearscreen()">
+        <input class="b num" type="button" value="0" onclick='btnclick(value)'>
+        <input class="b result" type="button" value="=" onclick='viewresult()'>
+        <input class="b op" type="button" value="/" onclick='btnclick(value)'>
+     
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
